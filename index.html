@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+</head>
+<body>
+  May Node and Express be with you.
+  <form action="/users" method="POST">
+    <input type="email" placeholder="email" name="email">
+    <select name="location">
+      <option value="">Where do you live?</option>
+      <option value='NY/New_York'>New York, New York</option>
+      <option value='CA/Los_Angeles'>Los Angeles, California</option>
+      <option value='IL/Chicago'>Chicago, Illinois</option>
+      <option value='TX/Houston'>Houston, Texas</option>
+      <option value='AZ/Phoenix'>Phoenix, Arizona</option>
+      <option value='PA/Philadelphia'>Philadelphia, Pennsylvania</option>
+      <option value='TX/San_Antonio'>San Antonio, Texas</option>
+      <option value='CA/San_Diego'>San Diego, California</option>
+      <option value='TX/Dallas'>Dallas, Texas</option>
+      <option value='CA/San Jose'>San Jose, California</option>
+      <option value='TX/Austin'>Austin, Texas</option>
+      <option value='FL/Jacksonville'>Jacksonville, Florida</option>
+      <option value='CA/San Francisco'>San Francisco, California</option>
+      <option value='OH/Columbus'>Columbus, Ohio</option>
+      <option value='IN/Indianapolis'>Indianapolis, Indiana</option>
+      <option value='TX/Fort Worth'>Fort Worth, Texas</option>
+      <option value='NC/Charlotte'>Charlotte, North Carolina</option>
+      <option value='WA/Seattle'>Seattle, Washington</option>
+      <option value='CO/Denver'>Denver, Colorado</option>
+      <option value='TX/El_Paso'>El Paso, Texas</option>
+      <option value='DC/Washington'>Washington, District of Columbia</option>
+      <option value='MA/Boston'>Boston, Massachusetts</option>
+      <option value='MI/Detroit'>Detroit, Michigan</option>
+      <option value='TN/Nashville-Davidson'>Nashville-Davidson, Tennessee</option>
+      <option value='TN/Memphis'>Memphis, Tennessee</option>
+      <option value='OR/Portland'>Portland, Oregon</option>
+      <option value='OK/Oklahoma_City'>Oklahoma City, Oklahoma</option>
+      <option value='NV/Las_Vegas'>Las Vegas, Nevada</option>
+      <option value='KY/Louisville'>Louisville, Kentucky</option>
+      <option value='MD/Baltimore'>Baltimore, Maryland</option>
+      <option value='WI/Milwaukee'>Milwaukee, Wisconsin</option>
+      <option value='NM/Albuquerque'>Albuquerque, New Mexico</option>
+      <option value='AZ/Tucson'>Tucson, Arizona</option>
+      <option value='CA/Fresno'>Fresno, California</option>
+      <option value='CA/Sacramento'>Sacramento, California</option>
+      <option value='AZ/Mesa'>Mesa, Arizona</option>
+      <option value='MO/Kansas_City'>Kansas City, Missouri</option>
+      <option value='GA/Atlanta'>Atlanta, Georgia</option>
+      <option value='CA/Long_Beach'>Long Beach, California</option>
+      <option value='CO/Colorado_Springs'>Colorado Springs, Colorado</option>
+      <option value='NC/Raleigh'>Raleigh, North Carolina</option>
+      <option value='FL/Miami'>Miami, Florida</option>
+      <option value='VA/Virginia Beach'>Virginia Beach, Virginia</option>
+      <option value='NE/Omaha'>Omaha, Nebraska</option>
+      <option value='CA/Oakland'>Oakland, California</option>
+      <option value='MN/Minneapolis'>Minneapolis, Minnesota</option>
+      <option value='OK/Tulsa'>Tulsa, Oklahoma</option>
+      <option value='TX/Arlington'>Arlington, Texas</option>
+      <option value='LA/New_Orleans'>New Orleans, Louisiana</option>
+      <option value='KS/Wichita'>Wichita, Kansas</option>
+      <option value='OH/Cleveland'>Cleveland, Ohio</option>
+      <option value='FL/Tampa'>Tampa, Florida</option>
+      <option value='CA/Bakersfield'>Bakersfield, California</option>
+      <option value='CO/Aurora'>Aurora, Colorado</option>
+      <option value='HI/Honolulu'>Urban Honolulu, Hawaii</option>
+      <option value='CA/Anaheim'>Anaheim, California</option>
+      <option value='CA/Santa_Ana'>Santa Ana, California</option>
+      <option value='TX/Corpus Christi'>Corpus Christi, Texas</option>
+      <option value='CA/Riverside'>Riverside, California</option>
+      <option value='KY/Lexington-Fayette'>Lexington-Fayette, Kentucky</option>
+      <option value='MO/St. Louis'>St. Louis, Missouri</option>
+      <option value='CA/Stockton'>Stockton, California</option>
+      <option value='PA/Pittsburgh'>Pittsburgh, Pennsylvania</option>
+      <option value='MN/St_Paul'>St. Paul, Minnesota</option>
+      <option value='OH/Cincinnati'>Cincinnati, Ohio</option>
+      <option value='AK/Anchorage'>Anchorage municipality, Alaska</option>
+      <option value='NV/Henderson'>Henderson, Nevada</option>
+      <option value='NC/Greensboro'>Greensboro, North Carolina</option>
+      <option value='TX/Plano'>Plano, Texas</option>
+      <option value='NJ/Newark'>Newark, New Jersey</option>
+      <option value='NE/Lincoln'>Lincoln, Nebraska</option>
+      <option value='OH/Toledo'>Toledo, Ohio</option>
+      <option value='FL/Orlando'>Orlando, Florida</option>
+      <option value='CA/Chula_Vista'>Chula Vista, California</option>
+      <option value='CA/Irvine'>Irvine, California</option>
+      <option value='IN/Fort Wayne'>Fort Wayne, Indiana</option>
+      <option value='NJ/Jersey_City'>Jersey City, New Jersey</option>
+      <option value='NC/Durham'>Durham, North Carolina</option>
+      <option value='FL/FL/St_Petersburg'>St. Petersburg, Florida</option>
+      <option value='TX/Laredo'>Laredo, Texas</option>
+      <option value='NY/Buffalo'>Buffalo, New York</option>
+      <option value='WI/Madison'>Madison, Wisconsin</option>
+      <option value='TX/Lubbock'>Lubbock, Texas</option>
+      <option value='AZ/Chandler'>Chandler, Arizona</option>
+      <option value='AZ/Scottsdale'>Scottsdale, Arizona</option>
+      <option value='AZ/Glendale'>Glendale, Arizona</option>
+      <option value='NV/Reno'>Reno, Nevada</option>
+      <option value='VA/Norfolk'>Norfolk, Virginia</option>
+      <option value='AZ/Winston-Salem'>Winston-Salem city, Arizona</option>
+      <option value='NV/North Las Vegas'>North Las Vegas, Nevada</option>
+      <option value='TX/Irving'>Irving, Texas</option>
+      <option value='VA/Chesapeake'>Chesapeake, Virginia</option>
+      <option value='AZ/Gilbert'>Gilbert, Arizona</option>
+      <option value='FL/Hialeah'>Hialeah, Florida</option>
+      <option value='TX/Garland'>Garland, Texas</option>
+      <option value='CA/Fremont'>Fremont, California</option>
+      <option value='LA/Baton_Rouge'>Baton Rouge, Louisiana</option>
+      <option value='VA/Richmond'>Richmond, Virginia</option>
+      <option value='ID/Boise_City'>Boise City, Idaho</option>
+      <option value='CA/San_Bernardino'>San Bernardino, California</option>
+    </select>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
